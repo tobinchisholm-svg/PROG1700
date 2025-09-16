@@ -28,7 +28,7 @@ This exercise will guide you through creating both.
 **My Website Idea:**
 
 ```
-___________________________________________________________
+i want to make a canso bingo game with insdie jokes that people can play as a joke when just drinving aroud town or doing the everyday task
 ___________________________________________________________
 ___________________________________________________________
 ```
