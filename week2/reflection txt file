@@ -1,0 +1,10 @@
+What happens when you forget to convert input to numbers?
+itll give you an error, unless you are able to tell the user that they can only entire a number by programing it to say so. if u enter a number without the very simple valadtion itll just give you the error. doing this valadtion will allow the user to put in a vaild age for the program to run correctly.
+
+whats the diffference between int () and float ()?
+a float is used for very specific number with a decimal. an example of this is 3.25
+a integer, int for short is a whole number. an example of this is 24
+
+why do we validate input.
+kinda answerd this in the first qustion, but it so that the user doesnt see an error. and can enter a vaild answer for the terminal.
+
