@@ -1,3 +1,3 @@
-route = [("Start", "Park"), ("Park", "Cafe"), ("Cafe", "Library")]
-for frm, to in route:  # tuple unpacking
-    print(f"{frm} → {to}")
+raw = ["a@x.com", "b@x.com", "a@x.com", "c@x.com", "b@x.com"]
+clean = set(raw)   # remove duplicates
+print("Unique:", clean)
