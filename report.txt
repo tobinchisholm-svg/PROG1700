@@ -1,15 +1,1 @@
-Alice: 85
-Bob: 90
-Charlie: 78
-Diana: 92
-Ethan: 88
-Fiona: 74
-George: 81
-Hannah: 95
-Ian: 67
-Julia: 89
 
-Total: 839
-Average: 83.90
-Highest grade: 95
-Lowest grade: 67

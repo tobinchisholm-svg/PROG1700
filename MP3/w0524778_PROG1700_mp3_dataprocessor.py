@@ -30,6 +30,7 @@ def write_grades_to_txt_and_maths(grades, output):
         f.write(f"Lowest grade: {lowest}\n")
 
 
+
 def main():
     grades_dict = read_grades("grades.csv")
     write_grades_to_txt_and_maths(grades_dict, "report.txt")
