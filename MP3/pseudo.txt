@@ -1,0 +1,36 @@
+FUNCTION read_grades(file_path):
+    CREATE empty dictionary grades
+    OPEN file at file_path for reading
+    READ all lines into list
+    FOR each line starting from second line (skip header):
+        IF line is not empty:
+            SPLIT line by comma into name and grade
+            CONVERT grade to integer
+            ADD name and grade to grades dictionary
+    RETURN grades dictionary
+
+FUNCTION write_grades_to_txt_and_maths_and_pass_or_fail(grades, output):
+    CREATE empty lists passing and failing
+    INITIALIZE total = 0
+    INITIALIZE highest = None
+    INITIALIZE lowest = None
+    OPEN output file for writing
+    FOR each name, grade in grades dictionary:
+        WRITE name and grade to file
+        ADD grade to total
+        UPDATE highest if grade is greater than current highest
+        UPDATE lowest if grade is less than current lowest
+        IF grade < 50:
+            ADD name to failing list
+        ELSE:
+            ADD name to passing list
+    CALCULATE average = total / number of grades
+    WRITE average, highest, lowest, passing list, failing list to file
+
+FUNCTION main():
+    CALL read_grades with "grades.csv" and STORE result in grades_dict
+    CALL write_grades_to_txt_and_maths_and_pass_or_fail with grades_dict and "report.txt"
+    PRINT message that report is generated
+
+IF program is run directly:
+    CALL main()

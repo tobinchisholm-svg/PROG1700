@@ -1,1 +1,15 @@
-
+Alice: 85
+Bob: 43
+Charlie: 78
+Diana: 92
+Ethan: 88
+Fiona: 31
+George: 23
+Hannah: 14
+Ian: 67
+Julia: 48
+Average: 56.90
+Highest grade: 92
+Lowest grade: 14
+Passing grade: ['Alice', 'Charlie', 'Diana', 'Ethan', 'Ian']
+Failing grade: ['Bob', 'Fiona', 'George', 'Hannah', 'Julia']
