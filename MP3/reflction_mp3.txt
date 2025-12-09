@@ -1,0 +1,15 @@
+# Reflection:
+# 1) What collection type(s) did you use and why?
+i used a dictionary to store naes and grade for quick lookup. 
+
+# 2) What was the hardest bug you fixed?
+i was actuclly having a hard time making the program to write to the 
+report.txt file but i used ai to help point ot my mistake to fix my program
+
+# 3) How does saving to a file make your program more useful?
+not only is there its own destnantion that that it writes too, it also doesnt clug up 
+the termnial so you arent looking at a ginat wall of text. 
+
+# 4) If you expanded this project, what feature would you add?
+i would like to add a way to sort throught the students alaphabaticly so 
+if it was a reay program you could find the student that you are looking for. 

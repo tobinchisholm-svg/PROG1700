@@ -9,7 +9,7 @@ Hannah: 14
 Ian: 67
 Julia: 48
 Average: 56.90
-Highest grade: 92
-Lowest grade: 14
+Highest grade: 100
+Lowest grade: 0
 Passing grade: ['Alice', 'Charlie', 'Diana', 'Ethan', 'Ian']
 Failing grade: ['Bob', 'Fiona', 'George', 'Hannah', 'Julia']
